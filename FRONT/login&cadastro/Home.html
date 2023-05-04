@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Agendar</title>
+    <link rel="stylesheet" href="styless.css">
+  </head>
+  <body>
+    <header>
+      <h1>Faça seu agendamento</h1>
+    </header>
+    <main>
+      <form id="schedule-form">
+        <label for="date">Data:</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="time">Horário:</label>
+        <input type="time" id="time" name="time" required>
+
+        <label for="event">Aula:</label>
+        <input type="text" id="event" name="event" required>
+
+        <button type="submit">Realizar agendamento</button>
+      </form>
+
+      <div id="schedule"></div>
+    </main>
+
+  </body>
+</html>
