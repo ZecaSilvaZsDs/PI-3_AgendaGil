@@ -68,7 +68,7 @@ public class Agendamento implements Serializable {
         this.dia = dia;
     }
 
-    public boolean isStatus() {
+    public boolean getStatus() {
         return status;
     }
 
