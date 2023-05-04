@@ -10,7 +10,7 @@
 
     <h2>AGENDAMENTOS:</h2>
     <form method="post">
-        <input type="checkbox"  value="" name="status" >
+        <input type="checkbox" th:object="${status}" required="required" value="" nome="status" >
         Laboratório:<input type="text" value="" name="local"/>
         Dia:<input type="text" value="" name="dia"/>
         Nome:<input type="text" value="" name="nome"/>
