@@ -1,0 +1,6 @@
+body {
+    margin:0;
+    padding:0;
+    font-family:'Nunito Sans', sans-serif;
+    background: linear-gradient(338deg, rgba(111,119,242,1) 0%, rgba(93,147,252,1) 35%, rgba(152,152,152,1) 100%);
+}
