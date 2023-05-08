@@ -1,6 +1,40 @@
-body {
-    margin:0;
-    padding:0;
-    font-family:'Nunito Sans', sans-serif;
-    background: linear-gradient(338deg, rgba(111,119,242,1) 0%, rgba(93,147,252,1) 35%, rgba(152,152,152,1) 100%);
+#container-principal{
+    width: 1300px;
+    height: 500px;
+    background-color: #d9d9d3;
+    border-radius: 20px;
+    margin-top: 120px;
+    margin-left: 200px;
+    display:flex;
+    align-items:center;
+    padding: 100px;
+}
+
+form{
+    align-items: center;
+    color: #4a4a71;
+    font-size: 16pt;
+    display:inline;
+}
+
+#btnLogin{
+    width: 50px;
+    height: 30px;
+    background-color: #4a4a71;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+}
+#container-logo{
+    width: 380px;
+    height: 380px;
+    background-color: #000;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+}
+#logo{
+    width:250px;
+    height: 250px;
 }
